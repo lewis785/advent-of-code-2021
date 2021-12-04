@@ -8,4 +8,7 @@ module.exports = {
       isolatedModules: true,
     },
   },
+  moduleNameMapper: {
+    'src(.*)$': '<rootDir>/src/$1',
+  },
 }

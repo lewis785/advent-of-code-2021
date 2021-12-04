@@ -1,12 +1,12 @@
 import fs from 'fs'
 import path from 'path'
-import { partOne, partTwo } from '../src/dayOne'
+import { partOne, partTwo } from '@src/01/problem'
 
 describe('dayOne', () => {
   describe('partOne', () => {
     it('example input', () => {
       const input = fs
-        .readFileSync(path.join(__dirname, './input/example_day_one.txt'))
+        .readFileSync(path.join(__dirname, './example.txt'))
         .toString('utf-8')
         .split('\n')
         .map((value) => parseInt(value))
@@ -15,7 +15,7 @@ describe('dayOne', () => {
 
     it('puzzle input', () => {
       const input = fs
-        .readFileSync(path.join(__dirname, './input/input_day_one.txt'))
+        .readFileSync(path.join(__dirname, './input.txt'))
         .toString('utf-8')
         .split('\n')
         .map((value) => parseInt(value))
@@ -26,7 +26,7 @@ describe('dayOne', () => {
   describe('partTwo', () => {
     it('example input', () => {
       const input = fs
-        .readFileSync(path.join(__dirname, './input/example_day_one.txt'))
+        .readFileSync(path.join(__dirname, './example.txt'))
         .toString('utf-8')
         .split('\n')
         .map((value) => parseInt(value))
@@ -35,7 +35,7 @@ describe('dayOne', () => {
 
     it('puzzle input', () => {
       const input = fs
-        .readFileSync(path.join(__dirname, './input/input_day_one.txt'))
+        .readFileSync(path.join(__dirname, './input.txt'))
         .toString('utf-8')
         .split('\n')
         .map((value) => parseInt(value))
