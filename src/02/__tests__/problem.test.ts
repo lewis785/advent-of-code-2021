@@ -1,16 +1,15 @@
 import fs from 'fs'
 import path from 'path'
-import { partOne, partTwo } from '@src/01/problem'
+import { partOne, partTwo } from '../problem'
 
-describe('dayOne', () => {
+describe('dayTwo', () => {
   describe('partOne', () => {
     it('example input', () => {
       const input = fs
         .readFileSync(path.join(__dirname, './example.txt'))
         .toString('utf-8')
         .split('\n')
-        .map((value) => parseInt(value))
-      expect(partOne(input)).toEqual(7)
+      expect(partOne(input)).toEqual(150)
     })
 
     it('puzzle input', () => {
@@ -18,8 +17,7 @@ describe('dayOne', () => {
         .readFileSync(path.join(__dirname, './input.txt'))
         .toString('utf-8')
         .split('\n')
-        .map((value) => parseInt(value))
-      expect(partOne(input)).toEqual(1462)
+      expect(partOne(input)).toEqual(1989265)
     })
   })
 
@@ -29,8 +27,7 @@ describe('dayOne', () => {
         .readFileSync(path.join(__dirname, './example.txt'))
         .toString('utf-8')
         .split('\n')
-        .map((value) => parseInt(value))
-      expect(partTwo(input)).toEqual(5)
+      expect(partTwo(input)).toEqual(900)
     })
 
     it('puzzle input', () => {
@@ -38,8 +35,7 @@ describe('dayOne', () => {
         .readFileSync(path.join(__dirname, './input.txt'))
         .toString('utf-8')
         .split('\n')
-        .map((value) => parseInt(value))
-      expect(partTwo(input)).toEqual(1497)
+      expect(partTwo(input)).toEqual(2089174012)
     })
   })
 })

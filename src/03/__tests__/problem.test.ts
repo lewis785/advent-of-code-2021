@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import { partOne, partTwo } from '@src/02/problem'
+import { partOne, partTwo } from '../problem'
 
 describe('dayTwo', () => {
   describe('partOne', () => {
@@ -9,7 +9,7 @@ describe('dayTwo', () => {
         .readFileSync(path.join(__dirname, './example.txt'))
         .toString('utf-8')
         .split('\n')
-      expect(partOne(input)).toEqual(150)
+      expect(partOne(input)).toEqual(198)
     })
 
     it('puzzle input', () => {
@@ -17,7 +17,7 @@ describe('dayTwo', () => {
         .readFileSync(path.join(__dirname, './input.txt'))
         .toString('utf-8')
         .split('\n')
-      expect(partOne(input)).toEqual(1989265)
+      expect(partOne(input)).toEqual(3847100)
     })
   })
 
@@ -27,7 +27,7 @@ describe('dayTwo', () => {
         .readFileSync(path.join(__dirname, './example.txt'))
         .toString('utf-8')
         .split('\n')
-      expect(partTwo(input)).toEqual(900)
+      expect(partTwo(input)).toEqual(230)
     })
 
     it('puzzle input', () => {
@@ -35,7 +35,7 @@ describe('dayTwo', () => {
         .readFileSync(path.join(__dirname, './input.txt'))
         .toString('utf-8')
         .split('\n')
-      expect(partTwo(input)).toEqual(2089174012)
+      expect(partTwo(input)).toEqual(4105235)
     })
   })
 })

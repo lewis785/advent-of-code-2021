@@ -1,6 +1,6 @@
 import fs from 'fs'
 import path from 'path'
-import { partOne, partTwo } from '@src/12/problem'
+import { partOne, partTwo } from '../problem'
 
 describe('problem', () => {
   describe('partOne', () => {
