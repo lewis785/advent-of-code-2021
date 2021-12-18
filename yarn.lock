@@ -611,6 +611,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/heap@^0.2.28":
+  version "0.2.28"
+  resolved "https://registry.yarnpkg.com/@types/heap/-/heap-0.2.28.tgz#c4247fae0e438c76ae05194c4b87cd5c4e859a7d"
+  integrity sha1-xCR/rg5DjHauBRlMS4fNXE6Fmn0=
+
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0", "@types/istanbul-lib-coverage@^2.0.1":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.3.tgz#4ba8ddb720221f432e443bd5f9117fd22cfd4762"
@@ -656,6 +661,11 @@
   version "0.0.29"
   resolved "https://registry.npmjs.org/@types/json5/-/json5-0.0.29.tgz"
   integrity sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
+
+"@types/lodash@^4.14.178":
+  version "4.14.178"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.178.tgz#341f6d2247db528d4a13ddbb374bcdc80406f4f8"
+  integrity sha512-0d5Wd09ItQWH1qFbEyQ7oTQ3GZrMfth5JkbN3EvTKLXcHLRDSXeLnlvlOn0wvxVIwK5o2M8JzP/OWz7T3NRsbw==
 
 "@types/node@*":
   version "16.11.11"
@@ -2129,6 +2139,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+heap@^0.2.7:
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/heap/-/heap-0.2.7.tgz#1e6adf711d3f27ce35a81fe3b7bd576c2260a8fc"
+  integrity sha512-2bsegYkkHO+h/9MGbn6KWcE45cHZgPANo5LXF7EvWdT0yT2EguSVO1nDgU5c8+ZOPwp2vMNa7YFsJhVcDR9Sdg==
+
 html-encoding-sniffer@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/html-encoding-sniffer/-/html-encoding-sniffer-2.0.1.tgz#42a6dc4fd33f00281176e8b23759ca4e4fa185f3"
@@ -2991,9 +3006,9 @@ lodash.merge@^4.6.2:
   resolved "https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.2.tgz"
   integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
 
-lodash@^4.17.14, lodash@^4.17.19, lodash@^4.7.0:
+lodash@^4.17.14, lodash@^4.17.19, lodash@^4.17.21, lodash@^4.7.0:
   version "4.17.21"
-  resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 loose-envify@^1.4.0:
